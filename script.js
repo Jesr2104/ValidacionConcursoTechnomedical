@@ -191,7 +191,6 @@ function validarPorCedula(cedula, boton) {
       filtrarYMostrarParticipantes(); // puedes usar esta o la que aplique según el contexto
 
       // 6. Confirmación visual
-      alert(`Participante con cédula ${cedula} ha sido validado correctamente.`);
       boton.innerHTML = '✅ Validado';
     } else {
       alert(`No se pudo validar al participante: ${respuesta.mensaje || 'Error desconocido'}`);
