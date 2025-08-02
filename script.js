@@ -1,4 +1,4 @@
-const server = "https://script.google.com/macros/s/AKfycbzrZ2OifZ6HdnVuI5GCSftcoMxEYcmH79g9f5VyBCgtiBeeod1ImXHz-j7tBAfeBCWE/exec";
+const server = "https://script.google.com/macros/s/AKfycbw9HW1qVOa87KJ3M_KUqx_Z5fMB1yCFXm2r-GW1lvDi7D0iWBgbdBXqPk6SrcIoPLOO/exec";
 let listaParticipantes = [];
 
 async function getlist() {
@@ -373,3 +373,4 @@ window.addEventListener("DOMContentLoaded", () => {
     getlist();
   }
 });
+
